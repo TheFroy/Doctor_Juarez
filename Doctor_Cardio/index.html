@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cirujano Cardiovascular</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+  <link rel="stylesheet" href="./estilo2.css">
+</head>
+
+<body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+  </script>
+<!-- Navbar -->
+  <nav class="navbar navbar-default  navbar-fixed-top animated fadeInDown ">
+    <div class="container" >
+      <div class="navbar-header align-items-center text-center">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <div class="container" style="width: auto; margin-right:none; ">
+            <a class="navbar-brand" href="index.html" style="padding: 0px 0px;">
+                <img src="./imagenes/logo_editado.png" style="width: 270px">
+              </a>
+        </div>
+        
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" style="font-size: 14px; margin-top: 10px; font-weight: bold">
+        <ul class="nav navbar-nav navbar-right">
+         <!-- <li><a href="#inicio">¿Quién soy?</a></li> -->
+          <li><a href="#info">Especialización</a></li>
+          <li><a href="#edu">Educación</a></li>
+          <li><a href="#exp">Experiencia</a></li>
+          <li><a href="#contacto">Contactos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <div class="container-fluid contenedor-slide" style="padding-top: 10px; padding-bottom: 0px;"> 
+    <div class="container-fluid" style="width:90%; padding-top: 0px;
+    padding-bottom: 10px;">
+      <div class="row">
+        <div class="col-md-12">
+      
+      <!-- aqui insertaremos el slider -->
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <!-- Indicatodores -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel1" data-slide-to="1"></li>
+              <li data-target="#carousel1" data-slide-to="2"></li>
+              <li data-target="#carousel1" data-slide-to="3"></li>
+              <li data-target="#carousel1" data-slide-to="4"></li>
+              <li data-target="#carousel1" data-slide-to="5"></li>
+            </ol>
+      
+        <!-- Contenedor de las imagenes -->
+                <div class="carousel-inner" role="listbox" style="text-align: center; ">
+              
+                  <div class="item active">
+                    <img src="./imagenes/carusel/Imagen2-Recuperado.png" style="width: 100%;" alt="Imagen 1">
+                    <div class="carousel-caption" style="font-size: calc(8px + 0.9vw)"> Expositor en el 11vo congreso de Cardiología</div>
+                  </div>
+              
+                  <div class="item">
+                    <img src="./imagenes/carusel/imagen1.png" style="width: 100%" alt="Imagen 2">
+                    <div class="carousel-caption" style="font-size: calc(8px + 0.9vw)">Colegas expositores en el 11vo congreso de Cardiología</div>
+                  </div>
+
+                  <div class="item">
+                    <img src="./imagenes/carusel/expo.png" style="width: 100%" alt="Imagen 3">
+                    <div class="carousel-caption" style="font-size: calc(8px + 0.9vw)">Labor como Expositor</div>
+                  </div>
+
+                  <div class="item">
+                    <img src="./imagenes/carusel/imagen5.png" style="width: 100%; max-height: 700px" alt="Imagen 4">
+                    <div class="carousel-caption" style="font-size: calc(8px + 0.9vw)">Gira Médica</div>
+                  </div>
+
+                  <div class="item">
+                    <img src="./imagenes/carusel/imagen6.png" style="width: 100%" alt="Imagen 5">
+                    <div class="carousel-caption" style="font-size: calc(8px + 0.9vw)">Junto a la Presidenta de IFMSA</div>
+                  </div>
+              
+                  <div class="item">
+                    <img src="./imagenes/carusel/imagen4.png" style="width: 100%" alt="Imagen 6">
+                    <div class="carousel-caption" style="font-size: calc(8px + 0.9vw)">Día laboral</div>
+                  </div>
+                </div>
+              
+        <!-- Controls -->
+                <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Siguiente</span>
+                </a>    
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+<!--Carrusel de imagenes
+
+<div class="w3-content w3-section" style="max-width:100%; max-height: 500px; padding-bottom: 505px">
+    <img class="mySlides" src="./imagenes/carusel/Sin-título-1.png" style="width:100%; max-height: 500px">
+  <img class="mySlides" src="./imagenes/carusel/Imagen3.png" style="width:100%; max-height: 500px">
+  <img class="mySlides" src="./imagenes/carusel/imagen1.png" style="width:100%; max-height: 500px">
+  <img class="mySlides" src="./imagenes/carusel/Imagen2.png" style="width:100%; max-height: 500px">
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+-->
+<section class="contenedor-fondo ">
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container" >
+          <h1 class="display-4 " data-aos="fade-in" style="font-size: calc(13px + 2.5vw)">Mi norte es realizar un 
+            impacto positivo en tu vida, mediante el arte quirúrgico</h1>
+          <p class="" data-aos="fade-in" style="font-size: calc(8px + 1.5vw); margin-top: 1px ">Dr. Juárez</p>
+        </div>
+      </div>
+
+</section>
+
+<!-- ´primer Container -->
+<div id="inicio"></div>
+<div class="container-fluid bg-5 text-center " id="">
+  <img src="./imagenes/recorte.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="30%">
+  <h1 style="font-weight: bold; font-size: calc(25px + 1.4vw)" id="info">Dr. Humberto Elías Juárez Rosario</h1>
+
+</div>
+
+<!-- segundo Container -->
+<div class="container-fluid bg-2 text-center" style="color: black" id="">
+  <h1 class="margin text-uppercase" data-aos="fade-right" style="font-size: calc(25px + 1.4vw)">Especializaciones</h1>
+  <h3 class="text-uppercase " data-aos="fade-right">Cirujano Cardiovascular</h3>
+              <p style="font-size: 1.0em" class="" style="text-align: left" data-aos="fade-right" >Médico idóneo en la República de Panamá y Colombia, cirujano general
+                  y cardiovascular en Panamá. Especialidad en: cirugía cardíaca convencional
+                  mínimamente invasiva valvular, reparación valvular, canulación de ECMO, cirugía
+                  torácica abierta y video asistida, cirugía vascular, tratamiento de endoprotésis aórticas
+                  abdominales y endovascular (angioplastía/stent de extremidades, torácicas, y catéteres
+                  centrales de todos los tipos). </p>
+                  <div id="edu"></div>
+</div>
+
+<!-- tercer Container (Grid) -->
+<div class="container-fluid bg-3 text-center"  style="padding-bottom: 15px">    
+  <h1 class="text-uppercase" data-aos="fade-right" style="font-size: calc(25px + 1.5vw)">Educación</h1><br>
+  <div class="row" data-aos="fade-up" style="margin-bottom: 0px">
+    <div class="col-sm-4" style="font-size: calc(9px + 1vw)">
+            <h3 style="font-size: calc(20px + 1.2vw)">Cirugía Cardiovascular</h3>
+            Universidad Pontificia Bolivariana – Medellín, Colombia 2014 -2017
+      <img src="./imagenes/cirugia1.jpg" class="img-responsive margin img-rounded " style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4" style="font-size: calc(9px + 1vw)"> 
+            <h3 style="font-size: calc(20px + 1.2vw)">Cirugía General</h3>
+            Caja de Seguro Social- Universidad de Panamá 2009-2014
+      <img src="./imagenes/11af84ee-ada6-41ec-9633-7fdd0b8931b8.JPG" class="img-responsive margin  img-rounded " style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4" style="font-size: calc(9px + 1vw)"> 
+            <h3 style="font-size: calc(20px + 1.2vw)">Doctor en Medicina</h3>
+            Facultad de Medicina Universidad de Panamá 2001-2006.
+      <img src="./imagenes/cirugia3.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image">
+    </div>
+  </div> 
+  <div id="exp"></div>
+</div>
+
+  
+<section class="exp"  >
+    <div class="container">
+        <h1 class="text-uppercase" data-aos="fade-right" style="font-size: calc(25px + 1.5vw); text-align: center">Experiencia Laboral</h1><br>
+      <div class="row justify-content-center" style="vertical-align: middle" >
+        <div class="col-sm-12 col-md-6 " data-aos="fade-right" style="font-size: calc(9px + 0.6vw)">
+              <h3 style="font-size: calc(20px + 1vw)" >Cirujano Cardiovascular</h3>
+              Hospital Santo Tomás Diciembre 2017 – Junio 2018 <br>
+              <h3 style="font-size: calc(20px + 1vw)" >Cirujano Cardiovascular</h3>
+              Complejo Hospitalario Julio  2018 – Presente
+              <h3 style="font-size: calc(22px + 1.5vw);color: #92140C" class="" >Cursos</h3>
+             <p>
+              <li  class="" >STS Workshop on Robotics  Thoracic Surgery Atlanta, Estados Unidos. 16-19 Mayo 2019.</li>
+              <li   class="" >EACTS Academy Video- Assisted Thorascoscopic Surgery Course. Medizin in Gruenen. Wendish Rietz, Alemania 17-18 Mayo 2018.</li>
+              <li   class="" >EACTS Academy Thoracic Surgery Part 1 12-14 Abril 2018. Windsor, Reino Unido.</li>
+              <li   class="" >STS Symposium Masters in Innovative Structural Heart and Valve Therapy: A case -Based Hands. Chicago, Estados Unidos. Diciembre 1 – 2, 2017. </li>
+              <li   class=""  >EACTS/ESVS Endovascular Skills Course. Hamburgo, Alemania. October 21 -22, 2017. </li>
+              <li   class="" >Curso-Taller De Reparación Mitral Mínimamente Invasiva. Clínica Cardiovid Medellin, Colombia. 5 y 6 Mayo 2016. </li>
+            </p>
+        </div>
+        <div class="col-sm-12 col-md-6 text-center" data-aos="zoom-in" style=" text-align: center">
+          <div>  
+          <img src="./imagenes/oper.png" class="img-responsive img-rounded " 
+            style="box-shadow: 25px 10px 80px 0px rgba(153, 153, 153, 0.685);padding-top: 0px;width: 100%" alt="">
+            <div id="contacto"></div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+   
+  </section>
+
+  <!--CONTENEDOR DE TESTIMONIOS-->
+  <div class="cointainer  testimonios" style="background-color: brown; padding:15px; margin-top:20px; text-align: center" >
+      <h1 style="font-weight: bold; font-size: calc(25px + 1.5vw)">TESTIMONIOS</h1>
+    <div class="row">
+          <div class="col-sm-12 col-md-6 ">
+              <a class="fancybox fancybox.iframe " href="./videos/video1.mp4">
+                <img class="videoThumb  img-rounded" style="box-shadow: 20px 10px 10px 0px rgba(0, 0, 0, 0.432)" src="./videos/video1.png"></a>
+              
+              <h3 class="videoTitle">Paciente n° 1</h3>
+          </div>
+          <div class="col-sm-12 col-md-6 ">
+              <a class="fancybox fancybox.iframe" href="./videos/video2.mp4">
+                <img class="videoThumb img-rounded" src="./videos/video2.png" style="box-shadow: 20px 10px 10px 0px rgba(0, 0, 0, 0.432)"></a>
+              
+              <h3 class="videoTitle">Paciente n° 2</h3>
+          </div>
+    </div>
+       
+    
+  </div>
+
+<!--cuarto contenedor-->
+<div class="container-fluid bg-55 text-center" data-aos="fade-up">
+    <h1 class="margin text-uppercase" style="color: black; font-size: calc(25px + 1.5vw)">Contactos</h1>
+    <div class="row"  style="font-size: calc(12px + 1.3vw); width: auto">
+      <a href="https://api.whatsapp.com/send?phone=50764006666&text="><img  src="./imagenes/whatsapp.png" data-aos="zoom-in" data-aos-delay="200"></a></img>
+      (+507) 6125-4603
+    </div>
+        <p>
+                <div class="row btn-row">
+                    <button class="btn btn-tel  border-0  col-12" data-toggle="collapse" href="#multiCollapseExample1" role="button" 
+                     aria-expanded="false" aria-controls="multiCollapseExample1" style="font-size: calc(9px + 1.5vw);"> 
+                     Centro Médico Barbarena, <br>
+                     Santiago, Veraguas, Panamá         
+                     <i class="glyphicon glyphicon-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="row">
+                        <div class="col-12">
+                          <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body" style="font-size: calc(9px + 1.5vw)">
+                                    (+507) 933-2846 
+                            </div>
+                          </div>
+                        </div>
+                </div >
+                <div class="row">
+                <button class="btn btn-tel  border-0 col-12" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" 
+                aria-expanded="false" aria-controls="multiCollapseExample2" style="font-size: calc(9px + 1.5vw); width:100%;">
+                Clinica Cattan, David, Chiriquí, Panamá     <i class="glyphicon glyphicon-chevron-down"></i>
+              </button>
+            </div>
+                <div class="row">
+                        <div class="col-12">
+                          <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="card card-body" style="font-size: calc(9px + 1.5vw)">
+                                  (+507) 775-7099
+                                  <br>
+                                  (+507) 775-3553
+                              
+                            </div>
+                          </div>
+                        </div>
+                </div>
+                <div class="row">
+                <button class="btn btn-tel border-0 col-12" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" 
+                aria-expanded="false" aria-controls="multiCollapseExample2"
+                 style="font-size: calc(9px + 1.5vw);">Cimeca, Ciudad de Panamá, Panamá
+                 <i class="glyphicon glyphicon-chevron-down"></i>
+                </button>
+                </div>
+                <div class="row">
+                        <div class="col-12">
+                          <div class="collapse multi-collapse" id="multiCollapseExample3">
+                            <div class="card card-body" style="font-size: calc(9px + 1.5vw)">
+                              (+507) 387-5402 
+                            </div>
+                          </div>
+                        </div>
+                </div>
+        </p>
+</div>
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center" >
+      <div class="container " data-aos="zoom-in" style="max-width: 900px; padding-top: 0px;">
+          <h3 class="text-uppercase" style="padding-bottom: 20px; font-size: calc(25px + 1.2vw)">¿Eres mi paciente?, regístrate!</h3>
+            <div class="container"  style="max-width: 600px; text-align: center">
+              <fieldset class="form-group">
+              <form action="MAILTO:jarodf_11@hotmail.com" method="post" enctype="text/plain">
+                    <div class="form-group row">
+                      <label for="inputCedula" class="col-sm-2 col-form-label">Cédula</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputCedula" placeholder="1-777-777">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="Nombre" class="col-sm-2 col-form-label">Nombre</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputNombre" placeholder="Juan">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputApellido" class="col-sm-2 col-form-label">Apellido</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputApellido" placeholder="Hernández">
+                        </div>
+                    </div>
+                    
+                      <div class="row">
+                        <label for="form-check" class="col-sm-2 col-form-label">Sexo</label>
+                        <div class="col-sm-10">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              Hombre
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Mujer
+                            </label>
+                          </div>                          
+                        </div>
+                      </div>
+                   
+                    <div class="form-group row">
+                        <label for="inputEdad" class="col-sm-2 col-form-label">Edad</label>
+                        <div class="col-sm-7">
+                            <input type="age" class="form-control" id="inputEdad" placeholder="00">
+                        </div>
+                    </div>         
+                    <div class="form-group row">
+                        <label for="inputCorreo" class="col-sm-2 col-form-label">Correo</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputCorreo" placeholder="tucorreo@ejemplo">
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <label for="inputResidencia" class="col-sm-2 col-form-label">Dirección</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputResidencia" placeholder="Alta Vista">
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <label for="inputTelefono" class="col-sm-2 col-form-label">Teléfono</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputTelefono" placeholder="66669999">
+                        </div>
+                    </div>    
+                    <div style="padding-bottom: 15px">
+                      <label for="inputComentarios" class="col-sm-2 col-form-label" maxlength="50" cols="50">Comentarios</label>
+                      <textarea class="form-control" rows="3" id="inputComentarios"placeholder="Aquí escribe tus opiniones..." ></textarea>
+                    </div>     
+
+                    <div class="form-group   align-items-center">
+                      <div class=" text-center">
+                        <button type="submit" value="send" class="btn btn-primary regular-button" style="width: 50%;font-size: calc(6px + 1.2vw)">Enviar información</button>
+                      </div>
+                    </div>
+                    
+                </form>
+              </fieldset>
+              </div>
+      </div>
+  </div>
+</footer>
+<script
+src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<script>js/jquery.fancybox.min.js</script>
+
+<script>
+$(document).ready(function() {
+  $('.fancybox').fancybox({
+    padding   	: 0,
+    maxWidth  	: '100%',
+    maxHeight 	: '100%',
+    width   		: 560,
+    height    	: 315,
+    autoSize  	: true,
+    closeClick  : true,
+    openEffect  : 'elastic',
+    closeEffect : 'elastic'
+  });
+});
+</script>
+<link rel="stylesheet" href="/fontawesome-free-5.10.2-web/css/fontawesome.min.css">
+<div class="col-md-12 " style="padding-top: 10px; padding-bottom:10px; text-align: center; background-color: #e6e6e6">
+    <ul class="social-network social-circle">
+       <li><a href="href=https://www.facebook.com/humberto.cerrud.71"><img src="./imagenes/facebook.png"></img></a></li>
+       <li><a href="https://instagram.com/doctorhjuarez?igshid=kgzm5hmohsbv"><img  src="./imagenes/instagram.png"></a></img></li>
+       <!--https://blog.wearedrew.co/3-pasos-para-integrar-whatsapp-con-tu-sitio-web-->
+    </ul>				
+</div>
+<script>
+var scroll = new SmoothScroll('a[href*="#"]');
+          speed: 50;
+          speedAsDuration:true;
+      </script>
+</body>
+</html>

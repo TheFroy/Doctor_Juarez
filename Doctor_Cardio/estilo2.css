@@ -1,0 +1,144 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    padding-top: 100px;
+    color: #f5f6f7;
+  }
+  p {
+    font-size: 16px;
+  }
+  
+  .bg-1 { 
+    background-color:     #825A61 ;    /*#9B6A6C;  light gray */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #CCB8AC ;     /*#790e0e; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color:   #E8E1D2 ;   /*#ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color:  rgb(86, 150, 110) ;   /*#2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .bg-5 { 
+    background-color:  #68A392 ;  /*#DD7373; /* rose */
+    color: #fff;
+  }
+  .bg-55 { 
+    background-color:  #fff ;  /*#DD7373; /* rose */
+    color: rgb(14, 1, 1);
+  }
+  section {
+    padding-top: calc(50px + 0.05vw); 
+  }
+  .container-fluid{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .contenedor-slide{
+    background-image: url(./imagenes/17583.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #92140C !important;
+  }
+  .navbar-brand{
+    margin-bottom: 20px;
+    font-size: 2.4vmax;
+  }
+  /*.navbar-brand::after{
+    content: url(./imagenes/logo.png);
+    height: 20px;
+  }*/
+  .col-sm-4{
+      font-size: 15px;
+  }
+  .img-circle {
+    border-radius: 40%;
+}
+  .container-fluid .btn{
+      width: 100%;
+      background-color: #fff;
+      color: #2f2f2f;
+      font-size: 20px;
+  }
+  .container-fluid .btn:hover{
+      opacity: 0.9
+  }
+  .row .img-responsive{
+      padding-top: 10px;
+  }
+  .envio{
+    align-content: center;
+  }
+  input:hover{
+    -webkit-border-block-color: rgb(10, 148, 218);
+    
+  }
+  
+  .form-control:hover{
+    -webkit-border-block-color: #68A392;
+  }
+
+  .contenedor-fondo{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("./imagenes/cirugia2.jpg");
+    background-size: cover;
+    height: 45vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .jumbotron{
+  background: transparent
+  }
+
+  .exp{
+    color: #2f2f2f;
+  }
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/*=========================
+  TESTIMONIOS
+ ================= */
+
